@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 	ul {
 		list-style-type: none;
@@ -42,6 +43,44 @@
 		margin-top: 200px;
 		font-family: Helvetica, sans-serif;
 	}
+	.icon-bar {
+  		position: fixed;
+		left: 97%;
+ 		 top: 50%;
+  		-webkit-transform: translateY(-50%);
+ 		 -ms-transform: translateY(-50%);
+  		transform: translateY(-50%);
+	}
+
+	.icon-bar a {
+  		display: block;
+  		text-align: center;
+ 		padding: 16px;
+		transition: all 0.3s ease;
+  		color: white;
+  		font-size: 20px;
+	}
+
+	.icon-bar a:hover {
+ 		background-color: #000;
+	}
+
+	.twitter {
+  		background: #55ACEE;
+  		color: white;
+	}
+	.twitch {
+		background: #6441a5
+	}
+	.youtube {
+  		background: #bb0000;
+  		color: white;
+	}
+
+	.content {
+  		margin-left: 75px;
+  		font-size: 30px;
+	}
 </style>
 </head>
 <body>
@@ -51,7 +90,11 @@
 	<li><a class="active" href="tournament.html">Tournaments</a></li>
 	
 </ul>
-
+<div class="icon-bar">
+  <a href="https://twitter.com/Monko2k" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="https://www.twitch.tv/monko2k" class="twitch"><i class="fa fa-twitch"></i></a> 
+  <a href="https://www.youtube.com/channel/UCkzY-moIvMp6eHAtftL1obw" class="youtube"><i class="fa fa-youtube"></i></a> 
+</div>
 
 </body>
 </html>
