@@ -152,6 +152,14 @@
             "download": "https://monkosite.s3.us-west-2.amazonaws.com/MonkoKamui+v2.osk",
             "preview": "https://monkosite.s3.us-west-2.amazonaws.com/skin19.jpg",
             "year": "2021"
+        },
+        {
+            "id": 20,
+            "name": "MonkoVax",
+            "ver": "",
+            "download": "https://monkosite.s3.us-west-2.amazonaws.com/MonkoVax.osk",
+            "preview": "",
+            "year": "2022"
         }
     ]
 }
