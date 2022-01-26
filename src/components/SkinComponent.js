@@ -1,7 +1,5 @@
-import { useState } from "react";
 import "./style/SkinComponent.css"
 function SkinComponent(props) {
-    const [loaded, setLoaded] = useState(false);
     return (
         <div 
             className="SkinComponent" 
@@ -15,10 +13,9 @@ function SkinComponent(props) {
 
             <img 
                 className="SkinPreview" 
-                style={loaded ? {opacity: 1} : {opacity: 0}}
-                src={props.data.preview} 
+                src={`/preview/skin${props.data.id}.jpg`}
                 alt={props.data.name}
-                onLoad={() => setLoaded(true)}/> 
+                /> 
         </div>
     )
 }
