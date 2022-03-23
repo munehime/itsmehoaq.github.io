@@ -160,6 +160,14 @@
             "download": "https://monkosite.s3.us-west-2.amazonaws.com/MonkoVax.osk",
             "preview": "",
             "year": "2022"
+        },
+        {
+            "id": 21,
+            "name": "MonkoPastel",
+            "ver": "",
+            "download": "https://monkosite.s3.uswest-2.amazonaws.com/MonkoPastel.osk",
+            "preview": "",
+            "year": "2022"
         }
     ]
 }
