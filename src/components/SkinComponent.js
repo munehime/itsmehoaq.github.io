@@ -13,7 +13,7 @@ function SkinComponent(props) {
 
             <img 
                 className="SkinPreview" 
-                src={`/preview/skin${props.data.id}.jpg`}
+                src={props.data.preview}
                 alt={props.data.name}
                 /> 
         </div>

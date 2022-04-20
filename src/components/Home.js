@@ -3,8 +3,8 @@ import './style/Home.css'
 function Home() {
    return (
        <div className="Home">
-           <h1>HELLO</h1>
-           <Link to="/skins"><u>you are probably here for these</u></Link>
+           <h1>ai hoi</h1>
+           <Link to="/skins"><u>la toi, toi da hoi</u></Link>
        </div>
    )
 }
