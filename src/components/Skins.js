@@ -12,7 +12,7 @@ function Skins() {
         <div className="Skins">
             {skins}
         </div>
-    )
+)
 }
 
 export default Skins;

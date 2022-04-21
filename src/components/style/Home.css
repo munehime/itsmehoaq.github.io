@@ -1,6 +1,13 @@
 .Home {
-    background: black;
+    /*background: black;*/
     color: white;
+    background-image: url("https://cdn.discordapp.com/attachments/966328852957769778/966585508677427210/unknown.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 50% 100%;
+    height: calc(100% - 45px);
+    width: 100vw;
+    position: fixed;
 }
 h1 {
     text-align: center;
